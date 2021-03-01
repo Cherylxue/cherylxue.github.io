@@ -1,0 +1,95 @@
+.banner {
+  height: 15vw;
+  width: 100%;
+  /* background-color: rgb(255, 214, 138); */
+
+  background-image: url("./avocado.jpg");
+  background-repeat: repeat;
+  /* background-image: linear-gradient(
+    rgb(255, 189, 65),
+    rgb(255, 214, 138),
+    rgb(255, 189, 65)
+  ); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 5px lightgray;
+  margin-bottom: 20px;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+
+/* .container-fluid::after {
+  content: "";
+  flex: auto;
+} */
+
+h1 {
+  color: white;
+  text-shadow: 2px 5px 4px rgb(151, 131, 134);
+  font-family: "Consolas", "Cambria Math", "Courier";
+}
+
+.card {
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.card:hover {
+  /* background-color: lightgray; */
+  box-shadow: 2px 2px 3px lightgray;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.btn {
+  background-color: pink;
+  border-color: plum;
+  color: white;
+  justify-self: flex-end;
+}
+
+.btn:hover {
+  background-color: rgb(255, 151, 168);
+  border-color: plum;
+  color: white;
+}
+
+.btn:focus {
+  border-color: rgb(252, 215, 221);
+}
+
+.card-title {
+  font-weight: bold;
+  color: rgb(192, 98, 113);
+}
+
+.card-text {
+  color: rgb(100, 91, 93);
+  text-align: justify;
+  font-size: 15px;
+}
+
+.develop-info {
+  color: rgb(224, 167, 177);
+  margin-bottom: 10px;
+}
