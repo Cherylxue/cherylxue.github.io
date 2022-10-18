@@ -93,3 +93,10 @@ h1 {
   color: rgb(224, 167, 177);
   margin-bottom: 10px;
 }
+
+.section-title {
+  color:rgb(192, 98, 113);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
